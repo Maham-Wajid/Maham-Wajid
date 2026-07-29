@@ -345,11 +345,12 @@
     <animate attributeName="y" from="36" to="724" dur="1.9s" begin=".55s" fill="freeze"/>
   </rect>
 
-  <!-- Neon sign. -->
-  <g transform="translate(835 390)" opacity="0" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="0;.2;0;.8;.3;1;.65;1;1;.82;1;.7;1" keyTimes="0;.05;.08;.14;.18;.26;.32;.4;.7;.78;.86;.93;1" dur="3.5s" begin="4.9s" repeatCount="indefinite"/>
-    <rect width="355" height="64" rx="13" fill="#ffffff" fill-opacity=".8" stroke="#ff65d2" stroke-width="2"/>
-    <text x="177.5" y="40" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="950" letter-spacing="2" fill="#7e167e">KEEP SOLVING • KEEP GROWING</text>
+      <!-- Neon / slogan pill. -->
+  <g transform="translate(818 392)" opacity="0" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0;.25;0;.85;.35;1;.7;1;1;.88;1;.75;1" keyTimes="0;.05;.08;.14;.18;.26;.32;.4;.7;.78;.86;.93;1" dur="3.5s" begin="4.9s" repeatCount="indefinite"/>
+    <rect width="390" height="60" rx="30" fill="#ffffff" fill-opacity=".82" stroke="#ff4fb8" stroke-width="2.5"/>
+    <rect x="3" y="3" width="384" height="54" rx="27" fill="#fff8fc" fill-opacity=".45"/>
+    <text x="195" y="38" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="900" letter-spacing="2.4" fill="#4a1460">BUILD DREAMS • SHIP SYSTEMS</text>
   </g>
 
   <!-- Code editor card, typing line by line. -->

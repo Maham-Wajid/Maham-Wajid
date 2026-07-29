@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
-  <img src="./banner-light.svg?v=2" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+  <img src="./banner-light.svg?v=3" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
 </picture>
 
 <br>
@@ -17,7 +17,7 @@
 ## `<identity />`
 
 <div align="center">
-  <img src="./lanyard.svg?v=2" width="430" alt="Animated swinging ID badge for Maham Wajid">
+  <img src="./lanyard.svg?v=3" width="430" alt="Animated swinging ID badge for Maham Wajid">
 </div>
 
 I am **Maham Wajid**, a **Senior Full Stack Engineer** with a Python-first backend focus. I design APIs, data models, microservices, and product workflows for CRM, marketplace, e-commerce, rewards, and cloud-resource systems. I also evaluate coding agents and LLM-based software-engineering systems—combining developer judgment with structured model-failure analysis.
@@ -36,12 +36,12 @@ const buildDreams = () => (
 ## `// local profile telemetry`
 
 <div align="center">
-  <img src="./stats.svg?v=2" width="49%" alt="Local animated GitHub stats card">
-  <img src="./langs.svg?v=2" width="49%" alt="Local animated language emphasis card">
+  <img src="./stats.svg?v=3" width="49%" alt="Local animated GitHub stats card">
+  <img src="./langs.svg?v=3" width="49%" alt="Local animated language emphasis card">
 </div>
 
 <div align="center">
-  <img src="./trophies.svg?v=2" width="98%" alt="Local animated trophies card">
+  <img src="./trophies.svg?v=3" width="98%" alt="Local animated trophies card">
 </div>
 
 > The local cards are static, repository-owned SVG snapshots—no rate-limited GitHub stats-card service is required. Public-profile values were verified on **29 July 2026** and may naturally change later.
@@ -127,6 +127,6 @@ const buildDreams = () => (
 ---
 
 <div align="center">
-  <b>KEEP SOLVING • KEEP GROWING</b><br>
+  <b>BUILD DREAMS • SHIP SYSTEMS</b><br>
   <sub>Designing dependable systems, learning from failure modes, and building the next useful thing.</sub>
 </div>
