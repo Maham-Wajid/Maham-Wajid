@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=1">
-  <img src="./banner-light.svg?v=1" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=2">
+  <img src="./banner-light.svg?v=2" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
 </picture>
 
 <br>
@@ -17,17 +17,17 @@
 ## `<identity />`
 
 <div align="center">
-  <img src="./lanyard.svg?v=1" width="430" alt="Animated swinging ID badge for Maham Wajid">
+  <img src="./lanyard.svg?v=2" width="430" alt="Animated swinging ID badge for Maham Wajid">
 </div>
 
 I am **Maham Wajid**, a **Senior Full Stack Engineer** with a Python-first backend focus. I design APIs, data models, microservices, and product workflows for CRM, marketplace, e-commerce, rewards, and cloud-resource systems. I also evaluate coding agents and LLM-based software-engineering systems—combining developer judgment with structured model-failure analysis.
 
-> **Building reliable systems, decoding AI failures, and shipping ideas that scale.**
+> **Code. Coffee. Keep growing — shipping systems that scale, one API at a time.**
 
 ```tsx
 const buildDreams = () => (
   <Future
-    stack={["Python", "React", "AI"]}
+    stack={["Python", "Vue", "AI"]}
     mindset="solve • learn • grow"
   />
 );
@@ -36,12 +36,12 @@ const buildDreams = () => (
 ## `// local profile telemetry`
 
 <div align="center">
-  <img src="./stats.svg?v=1" width="49%" alt="Local animated GitHub stats card">
-  <img src="./langs.svg?v=1" width="49%" alt="Local animated language emphasis card">
+  <img src="./stats.svg?v=2" width="49%" alt="Local animated GitHub stats card">
+  <img src="./langs.svg?v=2" width="49%" alt="Local animated language emphasis card">
 </div>
 
 <div align="center">
-  <img src="./trophies.svg?v=1" width="98%" alt="Local animated trophies card">
+  <img src="./trophies.svg?v=2" width="98%" alt="Local animated trophies card">
 </div>
 
 > The local cards are static, repository-owned SVG snapshots—no rate-limited GitHub stats-card service is required. Public-profile values were verified on **29 July 2026** and may naturally change later.
@@ -54,18 +54,18 @@ const buildDreams = () => (
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-c65cff?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=24102f)
 ![Django](https://img.shields.io/badge/Django-Web-8b5cf6?style=for-the-badge&logo=django&logoColor=white&labelColor=24102f)
 ![React](https://img.shields.io/badge/React-UI-ff8dcc?style=for-the-badge&logo=react&logoColor=white&labelColor=24102f)
+![Vue](https://img.shields.io/badge/Vue-UI-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white&labelColor=24102f)
 ![React Native](https://img.shields.io/badge/React_Native-Mobile-a78bfa?style=for-the-badge&logo=react&logoColor=white&labelColor=24102f)
-![Flutter](https://img.shields.io/badge/Flutter-Mobile-d946ef?style=for-the-badge&logo=flutter&logoColor=white&labelColor=24102f)
 ![SQL](https://img.shields.io/badge/SQL-Data-c084fc?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=24102f)
 ![Docker](https://img.shields.io/badge/Docker-Delivery-f472b6?style=for-the-badge&logo=docker&logoColor=white&labelColor=24102f)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-9f67e8?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=24102f)
-![GitHub](https://img.shields.io/badge/GitHub-Workflow-f0abfc?style=for-the-badge&logo=github&logoColor=white&labelColor=24102f)
+![AI](https://img.shields.io/badge/AI_Evaluation-Prompt_Eng-d946ef?style=for-the-badge&logo=openai&logoColor=white&labelColor=24102f)
 
 </div>
 
 **Backend & architecture:** REST APIs · Microservices · System Design · Authentication & Authorization · API Gateway Flows · Data Modeling · Search · Third-party Integrations · Logging & Monitoring · Error Handling · Failover Strategies · Performance Optimization
 
-**AI engineering:** Coding-agent task design · Terminal-Bench variants · Model reliability and instruction-following evaluation · Structured technical feedback
+**AI engineering:** Coding-agent task design · Terminal-Bench variants · Model reliability and instruction-following evaluation · Prompt engineering · Structured technical feedback
 
 **Core CS:** Data Structures & Algorithms · Object-Oriented Programming · Database Systems · Machine Learning · Human-Computer Interaction · UI/UX
 
@@ -86,7 +86,7 @@ const buildDreams = () => (
 - **Chips Loyalty:** multi-role e-commerce rewards platform using Python, Django, SQL, React, React Native, and REST APIs.
 - **Microsoft Chronos:** SaaS resource-reservation workflows using Python/Django, React, AWS, and REST APIs.
 - **Dubai real-estate CRM:** backend services for listings, agencies, developers, units, land, buildings, search, synchronization, and integrations.
-- **Vehicle marketplace:** FastAPI services, listing and inquiry workflows, filtering, consultant/dealer operations, and frontend-backend coordination.
+- **Vehicle marketplace:** FastAPI services, listing and inquiry workflows, filtering, consultant/dealer operations, and frontend-backend coordination with Vue.js.
 
 </details>
 
