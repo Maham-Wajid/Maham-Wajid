@@ -19,7 +19,7 @@
 <table>
 <tr>
 <td width="42%" valign="top" align="center">
-  <img src="./lanyard.svg?v=3" width="360" alt="Animated swinging ID badge for Maham Wajid">
+  <img src="./lanyard.svg?v=4" width="360" alt="Animated swinging ID badge for Maham Wajid">
 </td>
 <td width="58%" valign="middle">
 
