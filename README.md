@@ -16,9 +16,12 @@
 
 ## `<identity />`
 
-<div align="center">
-  <img src="./lanyard.svg?v=3" width="430" alt="Animated swinging ID badge for Maham Wajid">
-</div>
+<table>
+<tr>
+<td width="42%" valign="top" align="center">
+  <img src="./lanyard.svg?v=3" width="360" alt="Animated swinging ID badge for Maham Wajid">
+</td>
+<td width="58%" valign="middle">
 
 I am **Maham Wajid**, a **Senior Full Stack Engineer** with a Python-first backend focus. I design APIs, data models, microservices, and product workflows for CRM, marketplace, e-commerce, rewards, and cloud-resource systems. I also evaluate coding agents and LLM-based software-engineering systems—combining developer judgment with structured model-failure analysis.
 
@@ -32,6 +35,10 @@ const buildDreams = () => (
   />
 );
 ```
+
+</td>
+</tr>
+</table>
 
 ## `// local profile telemetry`
 
