@@ -14,7 +14,11 @@
 
 </div>
 
-## `<identity />`
+<div align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%AA%AA_Identity-d946ef?style=for-the-badge&labelColor=1a1024" alt="Identity">
+</div>
+
+<br/>
 
 <table>
 <tr>
@@ -40,7 +44,11 @@ const buildDreams = () => (
 </tr>
 </table>
 
-## `// local profile telemetry`
+<div align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%93%8A_GitHub_Stats-8b5cf6?style=for-the-badge&labelColor=1a1024" alt="GitHub Stats">
+</div>
+
+<br/>
 
 <div align="center">
   <img src="./stats.svg?v=3" width="49%" alt="Local animated GitHub stats card">
@@ -53,7 +61,11 @@ const buildDreams = () => (
 
 > The local cards are static, repository-owned SVG snapshots—no rate-limited GitHub stats-card service is required. Public-profile values were verified on **29 July 2026** and may naturally change later.
 
-## `// engineering toolkit`
+<div align="center">
+  <img src="https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_Engineering_Toolkit-ff69b4?style=for-the-badge&labelColor=1a1024" alt="Engineering Toolkit">
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -76,7 +88,11 @@ const buildDreams = () => (
 
 **Core CS:** Data Structures & Algorithms · Object-Oriented Programming · Database Systems · Machine Learning · Human-Computer Interaction · UI/UX
 
-## `// featured projects`
+<div align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80_Featured_Projects-c65cff?style=for-the-badge&labelColor=1a1024" alt="Featured Projects">
+</div>
+
+<br/>
 
 | Project | What it demonstrates | Stack / domain |
 |---|---|---|
@@ -97,7 +113,11 @@ const buildDreams = () => (
 
 </details>
 
-## `// contribution activity`
+<div align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%90%8D_Contribution_Activity-e879f9?style=for-the-badge&labelColor=1a1024" alt="Contribution Activity">
+</div>
+
+<br/>
 
 <div align="center">
 <picture>
@@ -115,7 +135,11 @@ const buildDreams = () => (
 </picture>
 </div>
 
-## `// connect`
+<div align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%93%A7_Let's_Connect-a855f7?style=for-the-badge&labelColor=1a1024" alt="Let's Connect">
+</div>
+
+<br/>
 
 <div align="center">
 
