@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=7">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=7">
-  <img src="./banner-light.svg?v=7" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=9">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=9">
+  <img src="./banner-light.svg?v=9" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
 </picture>
 
 <br>
@@ -23,7 +23,7 @@
 <table>
 <tr>
 <td width="42%" valign="top" align="center">
-  <img src="./lanyard.svg?v=11" width="360" alt="Animated swinging ID badge for Maham Wajid">
+  <img src="./lanyard.svg?v=12" width="360" alt="Animated swinging ID badge for Maham Wajid">
 </td>
 <td width="58%" valign="middle">
 
@@ -51,12 +51,12 @@ const buildDreams = () => (
 <br/>
 
 <div align="center">
-  <img src="./stats.svg?v=4" width="49%" alt="Local animated GitHub stats card">
-  <img src="./langs.svg?v=4" width="49%" alt="Local animated language emphasis card">
+  <img src="./stats.svg?v=5" width="49%" alt="Local animated GitHub stats card">
+  <img src="./langs.svg?v=5" width="49%" alt="Local animated language emphasis card">
 </div>
 
 <div align="center">
-  <img src="./trophies.svg?v=4" width="98%" alt="Local animated trophies card">
+  <img src="./trophies.svg?v=5" width="98%" alt="Local animated trophies card">
 </div>
 
 > The local cards are static, repository-owned SVG snapshots—no rate-limited GitHub stats-card service is required. Public-profile values were verified on **29 July 2026** and may naturally change later.

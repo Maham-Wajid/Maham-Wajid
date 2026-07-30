@@ -1,18 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="740" viewBox="0 0 1280 740" role="img" aria-labelledby="title desc">
 <title id="title">Animated developer banner for Maham Wajid</title>
-<desc id="desc">Senior Full Stack Engineer profile banner with soft studio backdrop, typing animations, technology chips, and character illustration.</desc>
+<desc id="desc">Senior Full Stack Engineer profile banner with glassmorphism studio backdrop, typing animations, technology chips, and character illustration.</desc>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-    <stop stop-color="#061018"/>
-    <stop offset=".4" stop-color="#0a1f2e"/>
-    <stop offset="1" stop-color="#134560"/>
+    <stop stop-color="#071520"/>
+    <stop offset=".4" stop-color="#0b2436"/>
+    <stop offset="1" stop-color="#14506a"/>
   </linearGradient>
   <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
-    <stop stop-color="#7dd3fc"/>
-    <stop offset=".5" stop-color="#e0f2fe"/>
-    <stop offset="1" stop-color="#38bdf8"/>
-    <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="x2" values="1;0;1" dur="6s" repeatCount="indefinite"/>
+    <stop stop-color="#67e8f9"/>
+    <stop offset=".35" stop-color="#e0f2fe"/>
+    <stop offset=".7" stop-color="#38bdf8"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+    <animate attributeName="x1" values="0;1;0" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="1;0;1" dur="4.5s" repeatCount="indefinite"/>
   </linearGradient>
   <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0">
     <stop stop-color="#38bdf8" stop-opacity="0"/>
@@ -30,7 +31,7 @@
     <stop offset=".5" stop-color="#0ea5e9" stop-opacity=".14"/>
     <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
   </linearGradient>
-  <filter id="nameGlow" x="-30%" y="-50%" width="170%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="nameGlow" x="-40%" y="-60%" width="180%" height="240%"><feGaussianBlur in="SourceGraphic" stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0ea5e9" flood-opacity=".16"/></filter>
   <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="30"/></filter>
   <clipPath id="bannerClip"><rect x="8" y="8" width="1264" height="724" rx="28"/></clipPath>
@@ -40,6 +41,29 @@
   <clipPath id="termClip"><rect x="55" y="16" width="0" height="52"><animate attributeName="width" from="0" to="460" dur="1.35s" begin=".12s" fill="freeze"/></rect></clipPath>
   <clipPath id="quoteClip1"><rect x="88" y="266" width="0" height="48"><animate attributeName="width" from="0" to="580" dur="1.85s" begin="1.95s" fill="freeze"/></rect></clipPath>
   <clipPath id="quoteClip2"><rect x="88" y="296" width="0" height="48"><animate attributeName="width" from="0" to="505" dur="1.55s" begin="3.85s" fill="freeze"/></rect></clipPath>
+
+  <linearGradient id="glassPanel" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#ffffff" stop-opacity=".14"/>
+    <stop offset=".45" stop-color="#7dd3fc" stop-opacity=".08"/>
+    <stop offset="1" stop-color="#0ea5e9" stop-opacity=".06"/>
+  </linearGradient>
+  <linearGradient id="glassChip" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#ffffff" stop-opacity=".16"/>
+    <stop offset="1" stop-color="#38bdf8" stop-opacity=".07"/>
+  </linearGradient>
+  <linearGradient id="glassEdge" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#ffffff" stop-opacity=".55"/>
+    <stop offset=".35" stop-color="#ffffff" stop-opacity=".08"/>
+    <stop offset="1" stop-color="#38bdf8" stop-opacity=".0"/>
+  </linearGradient>
+  <linearGradient id="glassSheen" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset=".45" stop-color="#ffffff" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="orbSoftA"><stop stop-color="#67e8f9" stop-opacity=".45"/><stop offset="1" stop-color="#67e8f9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orbSoftB"><stop stop-color="#38bdf8" stop-opacity=".35"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+  <filter id="glassShadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#38bdf8" flood-opacity=".18"/></filter>
 </defs>
 <style>
   .chip { transition: transform .25s ease; cursor: default; transform-box:fill-box; transform-origin:center; }
@@ -48,17 +72,17 @@
 <g clip-path="url(#bannerClip)">
   <rect width="1280" height="740" fill="url(#bg)"/>
 
-  <!-- Ambient light -->
-  <circle cx="170" cy="80" r="220" fill="url(#orbA)" opacity=".4">
-    <animate attributeName="opacity" values=".28;.48;.28" dur="6s" repeatCount="indefinite"/>
+  <!-- Ambient glass orbs -->
+  <circle cx="160" cy="90" r="240" fill="url(#orbSoftA)" opacity=".55">
+    <animate attributeName="opacity" values=".35;.6;.35" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1100" cy="150" r="300" fill="url(#orbB)" opacity=".48">
-    <animate attributeName="opacity" values=".32;.55;.32" dur="7s" begin="-2s" repeatCount="indefinite"/>
+  <circle cx="1120" cy="160" r="320" fill="url(#orbSoftB)" opacity=".5">
+    <animate attributeName="opacity" values=".32;.58;.32" dur="8s" begin="-2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="480" cy="720" r="250" fill="url(#orbA)" opacity=".18">
-    <animate attributeName="opacity" values=".12;.26;.12" dur="8s" begin="-3s" repeatCount="indefinite"/>
+  <circle cx="520" cy="700" r="260" fill="url(#orbSoftA)" opacity=".28">
+    <animate attributeName="opacity" values=".16;.34;.16" dur="9s" begin="-3s" repeatCount="indefinite"/>
   </circle>
-
+  <circle cx="900" cy="620" r="180" fill="url(#orbSoftB)" opacity=".22"/>
   <!-- Soft studio arcs -->
   <path d="M-40 180 C220 40, 420 320, 680 140 S1080 40, 1320 220" fill="none" stroke="#38bdf8" stroke-opacity=".08" stroke-width="2"/>
   <path d="M-40 290 C260 150, 480 410, 740 230 S1120 130, 1320 310" fill="none" stroke="#38bdf8" stroke-opacity=".05" stroke-width="1.5"/>
@@ -114,89 +138,93 @@
   <g clip-path="url(#termClip)"><text x="55" y="48" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" font-weight="700" fill="#bfdbfe"><tspan fill="#38bdf8">maham@dev</tspan><tspan fill="#bfdbfe">:~$ cat README.md</tspan></text></g>
   <rect x="458" y="30" width="9" height="22" rx="2" fill="#7dd3fc"><animate attributeName="opacity" values="0;0;1;0;1" keyTimes="0;.35;.36;.68;1" dur="1s" begin="1.2s" repeatCount="indefinite"/></rect>
 
-<!-- Name is actual glyph outlines, not live text. -->
-  <g transform="translate(55.00 182.00) scale(0.10600 -0.10600)">
+  <!-- Name: gaming display glyph outlines (Black Ops One). -->
+<g transform="translate(55.00 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="0.55s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="0.55s" fill="freeze"/>
-    <path d="M58 0C76 -1 91 -1 101 -1C179 -1 230 22 274 75C306 116 318 141 342 223C353 263 390 398 407 468C442 108 443 99 445 19L494 57C527 130 596 237 761 471C758 456 755 442 751 427C748 412 740 382 728 338C670 122 658 76 656 71C648 48 643 27 643 13C643 -2 654 -13 667 -13C672 -13 679 -12 686 -11C706 -7 765 3 780 5L827 11C830 12 838 13 851 15L872 40C855 39 842 38 834 37C817 36 801 35 793 35C761 35 743 50 743 75C743 103 743 103 795 314C821 422 846 509 872 586C880 610 888 617 906 617C915 617 928 616 941 613C945 612 956 610 968 608L1009 664C991 669 982 670 969 670C947 670 931 666 904 652C860 630 827 606 808 583C796 567 796 567 648 361C610 307 573 252 535 197L510 161C497 313 471 534 458 604L427 579C389 584 370 585 346 585C279 585 239 568 192 519C138 464 106 401 106 350C106 321 112 296 129 258L205 311C181 362 173 387 173 417C173 482 222 518 309 518C333 518 348 517 381 512C337 333 283 146 266 114C246 79 221 64 178 64C161 64 155 64 104 69Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="0.55s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="0.55s" fill="freeze"/>
+    <path d="M905 0 118 1327H588L944 737L1224 1217V549ZM1289 0V1327H1731V0ZM117 0V1204L530 511V0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(141.07 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(121.97 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="0.66s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="0.66s" fill="freeze"/>
-    <path d="M492 131C419 81 402 71 392 71C385 71 380 79 380 91C380 118 403 223 440 360C451 376 453 378 469 396C421 407 387 411 343 411C302 411 282 407 257 391C221 370 179 339 166 325C128 283 87 148 87 67C87 19 103 -13 128 -13C150 -13 183 7 308 97C297 46 293 21 293 8C293 -6 299 -13 309 -13C322 -13 330 -9 401 38C435 61 454 74 491 101ZM316 138C281 112 263 99 262 98C229 77 203 64 190 64C173 64 164 82 164 114C164 165 179 231 205 289C229 344 251 365 285 365C303 365 337 360 370 352C350 280 343 253 342 248C336 223 331 198 325 172C324 167 321 155 316 138Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="0.63s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="0.63s" fill="freeze"/>
+    <path d="M1044 0 988 145H554L646 408H886L531 1327H962L1491 0ZM9 0 483 1267 679 740 436 0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(182.62 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(176.70 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="0.77s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="0.77s" fill="freeze"/>
-    <path d="M75 -9 146 20 205 253C215 260 224 265 229 268C255 285 273 296 277 298C343 334 343 334 352 334C358 334 363 328 363 319C363 305 359 286 345 233C316 120 302 55 302 28C302 15 306 4 317 -15C372 13 445 59 499 99L506 128C423 79 407 71 394 71C385 71 379 81 379 97C379 124 384 144 424 291C450 388 450 388 450 394C450 404 442 411 429 411C407 411 342 375 214 292L248 426C272 524 282 555 295 580C309 608 330 621 357 621C370 621 378 620 417 612L460 673C442 677 434 678 418 678C364 678 335 663 262 599C210 553 202 536 171 404Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="0.71s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="0.71s" fill="freeze"/>
+    <path d="M957 0V539H629V805H954V1327H1400V0ZM117 0V1327H559V0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(226.30 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(232.00 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="0.88s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="0.88s" fill="freeze"/>
-    <path d="M492 131C419 81 402 71 392 71C385 71 380 79 380 91C380 118 403 223 440 360C451 376 453 378 469 396C421 407 387 411 343 411C302 411 282 407 257 391C221 370 179 339 166 325C128 283 87 148 87 67C87 19 103 -13 128 -13C150 -13 183 7 308 97C297 46 293 21 293 8C293 -6 299 -13 309 -13C322 -13 330 -9 401 38C435 61 454 74 491 101ZM316 138C281 112 263 99 262 98C229 77 203 64 190 64C173 64 164 82 164 114C164 165 179 231 205 289C229 344 251 365 285 365C303 365 337 360 370 352C350 280 343 253 342 248C336 223 331 198 325 172C324 167 321 155 316 138Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="0.79s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="0.79s" fill="freeze"/>
+    <path d="M1044 0 988 145H554L646 408H886L531 1327H962L1491 0ZM9 0 483 1267 679 740 436 0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(267.85 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(286.73 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="0.99s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="0.99s" fill="freeze"/>
-    <path d="M92 -10 163 17 227 260C292 305 335 329 348 329C356 329 361 321 361 307C361 277 323 126 281 -10L357 17L419 267C476 304 530 334 542 334C551 334 555 327 555 315C555 293 546 248 519 145C504 83 499 58 499 35C499 14 504 3 523 -10C581 19 637 55 692 99L693 122C608 70 608 70 594 70C583 70 576 80 576 96C576 119 588 172 609 246C641 357 647 380 647 396C647 406 642 411 631 411C613 411 551 379 429 307C433 325 433 325 442 364C446 379 449 396 449 400C449 407 444 411 436 411C419 411 381 390 237 299C253 367 258 390 258 397C258 406 252 411 243 411C233 411 222 405 172 377C106 339 106 339 88 327L81 299C134 326 143 329 155 329C163 329 169 321 169 310C169 295 166 282 126 123C117 91 109 58 101 25Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="0.87s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="0.87s" fill="freeze"/>
+    <path d="M905 0 118 1327H588L944 737L1224 1217V549ZM1289 0V1327H1731V0ZM117 0V1204L530 511V0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(349.72 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(373.86 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="1.10s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="1.10s" fill="freeze"/>
-    <path d="M263 -17 328 3C475 214 520 280 628 444C626 324 615 74 606 -17L670 4C704 56 716 73 780 152C970 384 1035 498 1035 595C1035 623 1031 639 1020 661C1006 669 1003 670 980 677C952 664 941 657 916 636C943 608 953 582 953 541C953 496 937 443 905 381C865 304 812 233 690 90C693 136 695 167 695 178L701 319C704 389 706 434 715 573L657 550C611 472 437 214 362 112C373 193 412 413 436 533C457 540 469 547 488 565C294 563 282 563 246 551C160 523 104 454 104 375C104 341 112 314 129 285L204 332C180 368 171 396 171 430C171 472 191 502 228 515C252 524 278 526 351 527C341 458 339 441 330 387C292 157 278 71 277 65Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="0.95s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="0.95s" fill="freeze"/>
+    <path d="M371 0 -26 1327H414L609 598L742 1155L915 525L772 0ZM1125 0 761 1327H1207L1547 0ZM1594 69 1414 776 1551 1327H1954Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(440.03 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(443.64 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="1.21s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="1.21s" fill="freeze"/>
-    <path d="M492 131C419 81 402 71 392 71C385 71 380 79 380 91C380 118 403 223 440 360C451 376 453 378 469 396C421 407 387 411 343 411C302 411 282 407 257 391C221 370 179 339 166 325C128 283 87 148 87 67C87 19 103 -13 128 -13C150 -13 183 7 308 97C297 46 293 21 293 8C293 -6 299 -13 309 -13C322 -13 330 -9 401 38C435 61 454 74 491 101ZM316 138C281 112 263 99 262 98C229 77 203 64 190 64C173 64 164 82 164 114C164 165 179 231 205 289C229 344 251 365 285 365C303 365 337 360 370 352C350 280 343 253 342 248C336 223 331 198 325 172C324 167 321 155 316 138Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="1.03s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="1.03s" fill="freeze"/>
+    <path d="M1044 0 988 145H554L646 408H886L531 1327H962L1491 0ZM9 0 483 1267 679 740 436 0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(481.59 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(498.38 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="1.32s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="1.32s" fill="freeze"/>
-    <path d="M238 494C265 519 268 521 292 539C295 542 299 545 303 548C289 573 280 591 274 603C273 607 270 614 269 616C241 594 218 577 200 564C206 543 218 521 238 494ZM-133 -241C-112 -246 -102 -247 -85 -247C-35 -247 -10 -235 41 -185C131 -96 136 -87 190 127C245 344 255 388 255 399C255 406 249 411 240 411C225 411 210 403 109 340L82 323L80 294C96 302 102 305 115 313C138 326 143 329 151 329C158 329 163 323 163 317C163 305 138 193 116 105C49 -161 37 -185 -32 -185C-45 -185 -52 -184 -86 -181Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="1.11s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="1.11s" fill="freeze"/>
+    <path d="M823 0V1038H213V1327H1265V265L1000 0ZM318 0 52 265V556H511V265H753V0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(501.94 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(548.51 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="1.43s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="1.43s" fill="freeze"/>
-    <path d="M273 616C245 594 222 576 204 564C211 543 220 526 242 494C270 519 273 522 307 548C304 554 302 558 294 571C288 583 287 583 279 603ZM311 116 294 107C225 69 213 64 201 64C190 64 183 75 183 92C183 109 183 109 216 241C253 393 253 393 253 401C253 407 248 411 241 411C224 411 165 378 83 323L81 295C142 328 145 329 154 329C162 329 166 323 166 312C166 298 163 284 148 227C101 53 101 53 101 27C101 3 110 -13 125 -13C142 -13 169 0 222 34C241 46 260 58 279 71C288 76 295 81 307 88Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="1.19s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="1.19s" fill="freeze"/>
+    <path d="M97 0V283H230V1045H97V1327H805V1045H672V283H805V0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
-<g transform="translate(524.41 182.00) scale(0.10600 -0.10600)">
+<g transform="translate(582.22 178.00) scale(0.03516 -0.03516)">
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.46s" begin="1.54s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.72;1" dur="0.46s" begin="1.54s" fill="freeze"/>
-    <path d="M497 131 469 113C444 96 427 84 422 81C401 68 382 59 377 59C369 59 363 70 363 85C363 118 446 480 468 542C490 602 512 625 548 625C562 625 571 623 594 617L629 673C614 676 607 677 597 677C573 677 559 673 537 660C512 646 478 620 450 594C401 547 398 540 372 437C371 433 368 419 364 405C346 409 332 411 323 411C292 411 206 357 166 313C132 274 87 133 87 64C87 26 107 -13 125 -13C144 -13 190 15 293 90C288 63 285 37 285 18C285 -2 292 -13 307 -13C323 -13 410 40 493 100ZM301 127C216 67 194 54 180 54C166 54 159 68 159 98C159 131 165 168 177 213C205 314 245 364 296 364C315 364 328 357 348 337Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
+    <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.55;1" dur="0.4s" begin="1.27s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="scale" values="0.45;1.18;1" keyTimes="0;0.68;1" dur="0.4s" begin="1.27s" fill="freeze"/>
+    <path d="M629 0V265H957V1062H629V1327H1134L1400 1062V265L1134 0ZM117 0V1327H559V0Z" fill="url(#nameGradient)" filter="url(#nameGlow)"/>
   </g>
 </g>
 
-  
   <!-- Roles -->
   <g clip-path="url(#roleClip1)"><text x="55" y="234" font-family="ui-sans-serif,SF Pro Display,Segoe UI,sans-serif" font-size="22" font-weight="800" letter-spacing="0.6" fill="#e0f2fe">Senior Full Stack Engineer</text></g>
   <g clip-path="url(#roleClip2)"><text x="55" y="234" font-family="ui-sans-serif,SF Pro Display,Segoe UI,sans-serif" font-size="22" font-weight="800" letter-spacing="0.6" fill="#e0f2fe">Backend Systems Engineer</text></g>
   <g clip-path="url(#roleClip3)"><text x="55" y="234" font-family="ui-sans-serif,SF Pro Display,Segoe UI,sans-serif" font-size="22" font-weight="800" letter-spacing="0.6" fill="#e0f2fe">AI Model Evaluation Engineer</text></g>
   <rect x="660" y="210" width="9" height="28" fill="#7dd3fc"><animate attributeName="opacity" values="1;0;1" dur=".75s" repeatCount="indefinite"/></rect>
 
-  <!-- Tagline -->
-  <g filter="url(#panelShadow)">
-    <rect x="55" y="258" width="630" height="82" rx="14" fill="#091824" fill-opacity=".86" stroke="#0ea5e9" stroke-opacity=".34"/>
+  <!-- Tagline glass panel -->
+  <g filter="url(#glassShadow)">
+    <rect x="55" y="258" width="630" height="82" rx="18" fill="url(#glassPanel)" stroke="#e0f2fe" stroke-opacity=".45"/>
+    <rect x="56" y="259" width="628" height="28" rx="17" fill="url(#glassEdge)" opacity=".7"/>
+    <rect x="55" y="258" width="70" height="82" rx="18" fill="url(#glassSheen)" opacity=".55">
+      <animate attributeName="x" values="55;615;55" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
   </g>
+
   <text x="72" y="310" font-family="Georgia,serif" font-size="38" fill="#bae6fd" opacity=".55">“</text>
   <g clip-path="url(#quoteClip1)"><text x="92" y="294" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" font-weight="700" fill="#f8fcff">Code. Coffee. Keep growing — shipping</text></g>
   <g clip-path="url(#quoteClip2)"><text x="92" y="322" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16" font-weight="700" fill="#f8fcff">systems that scale, one API at a time.</text></g>
@@ -204,7 +232,7 @@
   <g transform="translate(55 392)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.00s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.00s" fill="freeze"/>
-  <rect width="86" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="86" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.00s" repeatCount="indefinite"/>
   </circle>
@@ -213,7 +241,7 @@
   <g transform="translate(151 392)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.11s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.11s" fill="freeze"/>
-  <rect width="94" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="94" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.11s" repeatCount="indefinite"/>
   </circle>
@@ -222,7 +250,7 @@
   <g transform="translate(255 392)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.22s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.22s" fill="freeze"/>
-  <rect width="92" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="92" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.22s" repeatCount="indefinite"/>
   </circle>
@@ -231,7 +259,7 @@
   <g transform="translate(357 392)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.33s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.33s" fill="freeze"/>
-  <rect width="82" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="82" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.33s" repeatCount="indefinite"/>
   </circle>
@@ -240,7 +268,7 @@
   <g transform="translate(449 392)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.44s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.44s" fill="freeze"/>
-  <rect width="70" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="70" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.44s" repeatCount="indefinite"/>
   </circle>
@@ -249,7 +277,7 @@
   <g transform="translate(529 392)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.55s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.55s" fill="freeze"/>
-  <rect width="70" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="70" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.55s" repeatCount="indefinite"/>
   </circle>
@@ -258,7 +286,7 @@
   <g transform="translate(55 434)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.66s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.66s" fill="freeze"/>
-  <rect width="126" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="126" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.66s" repeatCount="indefinite"/>
   </circle>
@@ -267,7 +295,7 @@
   <g transform="translate(191 434)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.77s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.77s" fill="freeze"/>
-  <rect width="125" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="125" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.77s" repeatCount="indefinite"/>
   </circle>
@@ -276,7 +304,7 @@
   <g transform="translate(326 434)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.88s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.88s" fill="freeze"/>
-  <rect width="118" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="118" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.88s" repeatCount="indefinite"/>
   </circle>
@@ -285,7 +313,7 @@
   <g transform="translate(454 434)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3.99s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 8;0 0" dur="0.4s" begin="3.99s" fill="freeze"/>
-  <rect width="64" height="32" rx="8" fill="#0d2838" fill-opacity=".9" stroke="#38bdf8" stroke-opacity=".42"/>
+  <rect width="64" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".28"/>
   <circle cx="14" cy="16" r="3.5" fill="#7dd3fc">
     <animate attributeName="opacity" values=".45;1;.45" dur="1.9s" begin="3.99s" repeatCount="indefinite"/>
   </circle>
@@ -295,8 +323,16 @@
   <!-- Slogan chip on left, not over character -->
   <g transform="translate(55 478)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur=".45s" begin="4.35s" fill="freeze"/>
-    <rect width="300" height="32" rx="8" fill="#0a1f2e" fill-opacity=".88" stroke="#38bdf8" stroke-opacity=".4"/>
+    <rect width="300" height="32" rx="8" fill="url(#glassChip)" stroke="#e0f2fe" stroke-opacity=".5"/>
+    <rect width="300" height="12" rx="8" fill="url(#glassEdge)" opacity=".55"/>
     <text x="150" y="21" text-anchor="middle" font-family="ui-sans-serif,SF Pro Display,Segoe UI,sans-serif" font-size="12" font-weight="800" letter-spacing="1.8" fill="#e0f2fe">BUILD DREAMS • SHIP SYSTEMS</text>
+  </g>
+
+  <!-- About glass slab -->
+  <g filter="url(#glassShadow)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur=".45s" begin="4.4s" fill="freeze"/>
+    <rect x="55" y="518" width="630" height="138" rx="18" fill="url(#glassPanel)" stroke="#e0f2fe" stroke-opacity=".4"/>
+    <rect x="56" y="519" width="628" height="32" rx="17" fill="url(#glassEdge)" opacity=".55"/>
   </g>
 
   <!-- About -->
@@ -332,7 +368,8 @@
   <!-- Stats -->
   <g transform="translate(55 668)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur=".5s" begin="5.8s" fill="freeze"/>
-    <rect width="630" height="50" rx="12" fill="#091824" fill-opacity=".88" stroke="#0ea5e9" stroke-opacity=".28"/>
+    <rect width="630" height="50" rx="14" fill="url(#glassPanel)" stroke="#e0f2fe" stroke-opacity=".45"/>
+    <rect width="630" height="16" rx="14" fill="url(#glassEdge)" opacity=".5"/>
     <g font-family="ui-sans-serif,SF Pro Display,Segoe UI,sans-serif" text-anchor="middle">
       <text x="78" y="22" font-size="18" font-weight="900" fill="#7dd3fc">26</text>
       <text x="78" y="38" font-size="9" font-weight="800" fill="#94a3b8" letter-spacing="1">PUBLIC REPOS</text>
@@ -360,6 +397,7 @@
     <animate attributeName="x" from="-180" to="1380" dur="7.5s" repeatCount="indefinite"/>
   </rect>
 </g>
-<rect x="8" y="8" width="1264" height="724" rx="28" fill="none" stroke="#0ea5e9" stroke-opacity=".55" stroke-width="2"/>
+<rect x="8" y="8" width="1264" height="724" rx="28" fill="none" stroke="#7dd3fc" stroke-opacity=".42" stroke-width="1.5"/>
+<rect x="11" y="11" width="1258" height="718" rx="26" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="1"/>
 <rect x="14" y="14" width="1252" height="712" rx="24" fill="none" stroke="#7dd3fc" stroke-opacity=".12"/>
 </svg>
