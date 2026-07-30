@@ -23,7 +23,11 @@
 <table>
 <tr>
 <td width="42%" valign="top" align="center">
-  <img src="./lanyard.svg?v=12" width="360" alt="Animated swinging ID badge for Maham Wajid">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./lanyard.svg?v=13">
+    <source media="(prefers-color-scheme: light)" srcset="./lanyard-light.svg?v=13">
+    <img src="./lanyard-light.svg?v=13" width="360" alt="Animated swinging ID badge for Maham Wajid">
+  </picture>
 </td>
 <td width="58%" valign="middle">
 
@@ -51,12 +55,24 @@ const buildDreams = () => (
 <br/>
 
 <div align="center">
-  <img src="./stats.svg?v=5" width="49%" alt="Local animated GitHub stats card">
-  <img src="./langs.svg?v=5" width="49%" alt="Local animated language emphasis card">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./stats.svg?v=6">
+    <source media="(prefers-color-scheme: light)" srcset="./stats-light.svg?v=6">
+    <img src="./stats-light.svg?v=6" width="49%" alt="Local animated GitHub stats card">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./langs.svg?v=6">
+    <source media="(prefers-color-scheme: light)" srcset="./langs-light.svg?v=6">
+    <img src="./langs-light.svg?v=6" width="49%" alt="Local animated language emphasis card">
+  </picture>
 </div>
 
 <div align="center">
-  <img src="./trophies.svg?v=5" width="98%" alt="Local animated trophies card">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./trophies.svg?v=6">
+    <source media="(prefers-color-scheme: light)" srcset="./trophies-light.svg?v=6">
+    <img src="./trophies-light.svg?v=6" width="98%" alt="Local animated trophies card">
+  </picture>
 </div>
 
 > The local cards are static, repository-owned SVG snapshots—no rate-limited GitHub stats-card service is required. Public-profile values were verified on **29 July 2026** and may naturally change later.
