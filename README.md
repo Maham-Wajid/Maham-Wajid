@@ -1,21 +1,21 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
-  <img src="./banner-light.svg?v=3" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=4">
+  <img src="./banner-light.svg?v=4" width="100%" alt="Animated banner for Maham Wajid — Senior Full Stack Engineer">
 </picture>
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=Maham-Wajid&label=PROFILE+VIEWS&color=d946ef&style=for-the-badge" alt="Profile views">
-<a href="https://github.com/Maham-Wajid?tab=followers"><img src="https://img.shields.io/github/followers/Maham-Wajid?label=FOLLOWERS&style=for-the-badge&color=8b5cf6&labelColor=1a1024" alt="GitHub followers"></a>
-<a href="https://github.com/Maham-Wajid"><img src="https://img.shields.io/badge/OPEN_TO-COLLABORATION-ff69b4?style=for-the-badge&labelColor=1a1024" alt="Open to collaboration"></a>
+<img src="https://komarev.com/ghpvc/?username=Maham-Wajid&label=PROFILE+VIEWS&color=0ea5e9&style=for-the-badge" alt="Profile views">
+<a href="https://github.com/Maham-Wajid?tab=followers"><img src="https://img.shields.io/github/followers/Maham-Wajid?label=FOLLOWERS&style=for-the-badge&color=0ea5e9&labelColor=0b1f2d" alt="GitHub followers"></a>
+<a href="https://github.com/Maham-Wajid"><img src="https://img.shields.io/badge/OPEN_TO-COLLABORATION-38bdf8?style=for-the-badge&labelColor=0b1f2d" alt="Open to collaboration"></a>
 
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%AA%AA_Identity-d946ef?style=for-the-badge&labelColor=1a1024" alt="Identity">
+  <img src="https://img.shields.io/badge/%F0%9F%AA%AA_Identity-0ea5e9?style=for-the-badge&labelColor=0b1f2d" alt="Identity">
 </div>
 
 <br/>
@@ -23,7 +23,7 @@
 <table>
 <tr>
 <td width="42%" valign="top" align="center">
-  <img src="./lanyard.svg?v=9" width="360" alt="Animated swinging ID badge for Maham Wajid">
+  <img src="./lanyard.svg?v=10" width="360" alt="Animated swinging ID badge for Maham Wajid">
 </td>
 <td width="58%" valign="middle">
 
@@ -45,40 +45,40 @@ const buildDreams = () => (
 </table>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%93%8A_GitHub_Stats-8b5cf6?style=for-the-badge&labelColor=1a1024" alt="GitHub Stats">
+  <img src="https://img.shields.io/badge/%F0%9F%93%8A_GitHub_Stats-0ea5e9?style=for-the-badge&labelColor=0b1f2d" alt="GitHub Stats">
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="./stats.svg?v=3" width="49%" alt="Local animated GitHub stats card">
-  <img src="./langs.svg?v=3" width="49%" alt="Local animated language emphasis card">
+  <img src="./stats.svg?v=4" width="49%" alt="Local animated GitHub stats card">
+  <img src="./langs.svg?v=4" width="49%" alt="Local animated language emphasis card">
 </div>
 
 <div align="center">
-  <img src="./trophies.svg?v=3" width="98%" alt="Local animated trophies card">
+  <img src="./trophies.svg?v=4" width="98%" alt="Local animated trophies card">
 </div>
 
 > The local cards are static, repository-owned SVG snapshots—no rate-limited GitHub stats-card service is required. Public-profile values were verified on **29 July 2026** and may naturally change later.
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_Engineering_Toolkit-ff69b4?style=for-the-badge&labelColor=1a1024" alt="Engineering Toolkit">
+  <img src="https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_Engineering_Toolkit-38bdf8?style=for-the-badge&labelColor=0b1f2d" alt="Engineering Toolkit">
 </div>
 
 <br/>
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-Expert-ff69b4?style=for-the-badge&logo=python&logoColor=white&labelColor=24102f)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-c65cff?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=24102f)
-![Django](https://img.shields.io/badge/Django-Web-8b5cf6?style=for-the-badge&logo=django&logoColor=white&labelColor=24102f)
-![React](https://img.shields.io/badge/React-UI-ff8dcc?style=for-the-badge&logo=react&logoColor=white&labelColor=24102f)
-![Vue](https://img.shields.io/badge/Vue-UI-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white&labelColor=24102f)
-![React Native](https://img.shields.io/badge/React_Native-Mobile-a78bfa?style=for-the-badge&logo=react&logoColor=white&labelColor=24102f)
-![SQL](https://img.shields.io/badge/SQL-Data-c084fc?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=24102f)
-![Docker](https://img.shields.io/badge/Docker-Delivery-f472b6?style=for-the-badge&logo=docker&logoColor=white&labelColor=24102f)
-![AWS](https://img.shields.io/badge/AWS-Cloud-9f67e8?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=24102f)
-![AI](https://img.shields.io/badge/AI_Evaluation-Prompt_Eng-d946ef?style=for-the-badge&logo=openai&logoColor=white&labelColor=24102f)
+![Python](https://img.shields.io/badge/Python-Expert-38bdf8?style=for-the-badge&logo=python&logoColor=white&labelColor=0b1f2d)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-38bdf8?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0b1f2d)
+![Django](https://img.shields.io/badge/Django-Web-0ea5e9?style=for-the-badge&logo=django&logoColor=white&labelColor=0b1f2d)
+![React](https://img.shields.io/badge/React-UI-7dd3fc?style=for-the-badge&logo=react&logoColor=white&labelColor=0b1f2d)
+![Vue](https://img.shields.io/badge/Vue-UI-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white&labelColor=0b1f2d)
+![React Native](https://img.shields.io/badge/React_Native-Mobile-67e8f9?style=for-the-badge&logo=react&logoColor=white&labelColor=0b1f2d)
+![SQL](https://img.shields.io/badge/SQL-Data-38bdf8?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=0b1f2d)
+![Docker](https://img.shields.io/badge/Docker-Delivery-38bdf8?style=for-the-badge&logo=docker&logoColor=white&labelColor=0b1f2d)
+![AWS](https://img.shields.io/badge/AWS-Cloud-0ea5e9?style=for-the-badge&logo=amazonwebservices&logoColor=white&labelColor=0b1f2d)
+![AI](https://img.shields.io/badge/AI_Evaluation-Prompt_Eng-0ea5e9?style=for-the-badge&logo=openai&logoColor=white&labelColor=0b1f2d)
 
 </div>
 
@@ -89,7 +89,7 @@ const buildDreams = () => (
 **Core CS:** Data Structures & Algorithms · Object-Oriented Programming · Database Systems · Machine Learning · Human-Computer Interaction · UI/UX
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%9A%80_Featured_Projects-c65cff?style=for-the-badge&labelColor=1a1024" alt="Featured Projects">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80_Featured_Projects-38bdf8?style=for-the-badge&labelColor=0b1f2d" alt="Featured Projects">
 </div>
 
 <br/>
@@ -118,16 +118,16 @@ const buildDreams = () => (
 </details>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%90%8D_Contribution_Activity-e879f9?style=for-the-badge&labelColor=1a1024" alt="Contribution Activity">
+  <img src="https://img.shields.io/badge/%F0%9F%90%8D_Contribution_Activity-38bdf8?style=for-the-badge&labelColor=0b1f2d" alt="Contribution Activity">
 </div>
 
 <br/>
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Maham-Wajid&bg_color=0d0714&color=f5d0fe&line=d946ef&point=ff7ac8&area=true&hide_border=true">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Maham-Wajid&bg_color=ffffff&color=55145f&line=c026d3&point=ec4899&area=true&hide_border=true">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maham-Wajid&bg_color=ffffff&color=55145f&line=c026d3&point=ec4899&area=true&hide_border=true" width="98%" alt="Maham Wajid contribution activity graph">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Maham-Wajid&bg_color=07141c&color=e0f2fe&line=0ea5e9&point=7dd3fc&area=true&hide_border=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Maham-Wajid&bg_color=ffffff&color=0c4a6e&line=0284c7&point=38bdf8&area=true&hide_border=true">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Maham-Wajid&bg_color=ffffff&color=0c4a6e&line=0284c7&point=38bdf8&area=true&hide_border=true" width="98%" alt="Maham Wajid contribution activity graph">
 </picture>
 </div>
 
@@ -140,22 +140,22 @@ const buildDreams = () => (
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%93%A7_Let's_Connect-a855f7?style=for-the-badge&labelColor=1a1024" alt="Let's Connect">
+  <img src="https://img.shields.io/badge/%F0%9F%93%A7_Let's_Connect-0284c7?style=for-the-badge&labelColor=0b1f2d" alt="Let's Connect">
 </div>
 
 <br/>
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/maham-wajid/"><img src="https://img.shields.io/badge/LinkedIn-Maham_Wajid-c026d3?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=24102f" alt="LinkedIn"></a>
-<a href="https://github.com/Maham-Wajid"><img src="https://img.shields.io/badge/GitHub-Maham--Wajid-8b5cf6?style=for-the-badge&logo=github&logoColor=white&labelColor=24102f" alt="GitHub"></a>
-<a href="https://leetcode.com/u/maham00079/"><img src="https://img.shields.io/badge/LeetCode-maham00079-f472b6?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=24102f" alt="LeetCode"></a>
-<a href="https://www.hackerrank.com/profile/maham00079"><img src="https://img.shields.io/badge/HackerRank-maham00079-d946ef?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=24102f" alt="HackerRank"></a>
-<a href="https://stackoverflow.com/users/18060192/maham?tab=profile"><img src="https://img.shields.io/badge/Stack_Overflow-Maham-a855f7?style=for-the-badge&logo=stackoverflow&logoColor=white&labelColor=24102f" alt="Stack Overflow"></a>
+<a href="https://www.linkedin.com/in/maham-wajid/"><img src="https://img.shields.io/badge/LinkedIn-Maham_Wajid-0284c7?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b1f2d" alt="LinkedIn"></a>
+<a href="https://github.com/Maham-Wajid"><img src="https://img.shields.io/badge/GitHub-Maham--Wajid-0ea5e9?style=for-the-badge&logo=github&logoColor=white&labelColor=0b1f2d" alt="GitHub"></a>
+<a href="https://leetcode.com/u/maham00079/"><img src="https://img.shields.io/badge/LeetCode-maham00079-38bdf8?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=0b1f2d" alt="LeetCode"></a>
+<a href="https://www.hackerrank.com/profile/maham00079"><img src="https://img.shields.io/badge/HackerRank-maham00079-0ea5e9?style=for-the-badge&logo=hackerrank&logoColor=white&labelColor=0b1f2d" alt="HackerRank"></a>
+<a href="https://stackoverflow.com/users/18060192/maham?tab=profile"><img src="https://img.shields.io/badge/Stack_Overflow-Maham-0284c7?style=for-the-badge&logo=stackoverflow&logoColor=white&labelColor=0b1f2d" alt="Stack Overflow"></a>
 
-<a href="mailto:ping.maham@gmail.com"><img src="https://img.shields.io/badge/Email-ping.maham%40gmail.com-ff69b4?style=for-the-badge&logo=gmail&logoColor=white&labelColor=24102f" alt="Email ping.maham@gmail.com"></a>
-<a href="mailto:maham00079@gmail.com"><img src="https://img.shields.io/badge/Email-maham00079%40gmail.com-c65cff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=24102f" alt="Email maham00079@gmail.com"></a>
-<a href="mailto:mahamwajid.cs@gmail.com"><img src="https://img.shields.io/badge/Email-mahamwajid.cs%40gmail.com-9f67e8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=24102f" alt="Email mahamwajid.cs@gmail.com"></a>
+<a href="mailto:ping.maham@gmail.com"><img src="https://img.shields.io/badge/Email-ping.maham%40gmail.com-38bdf8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b1f2d" alt="Email ping.maham@gmail.com"></a>
+<a href="mailto:maham00079@gmail.com"><img src="https://img.shields.io/badge/Email-maham00079%40gmail.com-38bdf8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b1f2d" alt="Email maham00079@gmail.com"></a>
+<a href="mailto:mahamwajid.cs@gmail.com"><img src="https://img.shields.io/badge/Email-mahamwajid.cs%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0b1f2d" alt="Email mahamwajid.cs@gmail.com"></a>
 
 </div>
 

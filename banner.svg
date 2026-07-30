@@ -2,15 +2,15 @@
 <title id="title">Animated developer banner for Maham Wajid</title>
 <desc id="desc">Senior Full Stack Engineer profile banner with terminal typing, animated role titles, technology stack, character hologram, code editor, and motivational neon sign.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080512"/><stop offset=".48" stop-color="#1a0b2c"/><stop offset="1" stop-color="#300b46"/></linearGradient>
-  <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff6fcf"/><stop offset=".48" stop-color="#ff9de2"/><stop offset="1" stop-color="#9d4edd"/><animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="1;0;1" dur="5s" repeatCount="indefinite"/></linearGradient>
-  <linearGradient id="pillDot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff72c8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-  <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ff50d3" stop-opacity="0"/><stop offset=".45" stop-color="#ff50d3" stop-opacity=".03"/><stop offset=".5" stop-color="#ff50d3" stop-opacity=".72"/><stop offset=".55" stop-color="#ff50d3" stop-opacity=".04"/><stop offset="1" stop-color="#ff50d3" stop-opacity="0"/></linearGradient>
-  <radialGradient id="orbPink"><stop stop-color="#ff46c7" stop-opacity=".52"/><stop offset="1" stop-color="#ff46c7" stop-opacity="0"/></radialGradient>
-  <radialGradient id="orbPurple"><stop stop-color="#8b5cf6" stop-opacity=".48"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050d14"/><stop offset=".48" stop-color="#0c2130"/><stop offset="1" stop-color="#164058"/></linearGradient>
+  <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7dd3fc"/><stop offset=".48" stop-color="#bae6fd"/><stop offset="1" stop-color="#0284c7"/><animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="1;0;1" dur="5s" repeatCount="indefinite"/></linearGradient>
+  <linearGradient id="pillDot" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient>
+  <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#38bdf8" stop-opacity="0"/><stop offset=".45" stop-color="#38bdf8" stop-opacity=".03"/><stop offset=".5" stop-color="#38bdf8" stop-opacity=".72"/><stop offset=".55" stop-color="#38bdf8" stop-opacity=".04"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
+  <radialGradient id="orbPink"><stop stop-color="#38bdf8" stop-opacity=".52"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+  <radialGradient id="orbPurple"><stop stop-color="#0ea5e9" stop-opacity=".48"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
   <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <filter id="nameGlow" x="-30%" y="-50%" width="170%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="13" flood-color="#8b1db1" flood-opacity=".24"/></filter>
+  <filter id="panelShadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="13" flood-color="#0369a1" flood-opacity=".24"/></filter>
   <filter id="scanGlow" x="-30%" y="-500%" width="160%" height="1100%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   
     <clipPath id="roleClip1"><rect x="55" y="205" width="0" height="66"><animate attributeName="width" values="0;0;520;520;0;0" keyTimes="0;.02;.20;.30;.34;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
@@ -26,7 +26,7 @@
 </defs>
 <style>
   .pill { transition: transform .25s ease, filter .25s ease; cursor: default; transform-box:fill-box; transform-origin:center; }
-  .pill:hover { transform: translateY(-4px) scale(1.04); filter: drop-shadow(0 0 9px #e85cff); }
+  .pill:hover { transform: translateY(-4px) scale(1.04); filter: drop-shadow(0 0 9px #0ea5e9); }
   .pulseDot { animation: dotPulse 1.8s ease-in-out infinite; transform-origin:center; }
   .orb { animation: orbPulse 5s ease-in-out infinite alternate; transform-origin:center; }
   @keyframes dotPulse { 0%,100%{opacity:.55;transform:scale(.75)} 50%{opacity:1;transform:scale(1.35)} }
@@ -37,93 +37,93 @@
   <circle class="orb" cx="155" cy="120" r="190" fill="url(#orbPink)" opacity=".35"/>
   <circle class="orb" cx="1110" cy="120" r="250" fill="url(#orbPurple)" opacity=".35" style="animation-delay:-2s"/>
   <circle class="orb" cx="665" cy="715" r="260" fill="url(#orbPink)" opacity=".18" style="animation-delay:-3.3s"/>
-  <path d="M0 92H1280M0 358H1280M0 625H1280" stroke="#e657ff" stroke-opacity=".055"/>
+  <path d="M0 92H1280M0 358H1280M0 625H1280" stroke="#0ea5e9" stroke-opacity=".055"/>
   <g transform="translate(90 120)" opacity=".25">
-  <path d="M0 -5.5 L1.9 -1.9 L5.5 0 L1.9 1.9 L0 5.5 L-1.9 1.9 L-5.5 0 L-1.9 -1.9 Z" fill="#ffd6ff">
+  <path d="M0 -5.5 L1.9 -1.9 L5.5 0 L1.9 1.9 L0 5.5 L-1.9 1.9 L-5.5 0 L-1.9 -1.9 Z" fill="#e0f2fe">
     <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="2.00s" begin="0.00s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;1;.15" dur="2.00s" begin="0.00s" repeatCount="indefinite"/>
   </path>
 </g>
 <g transform="translate(220 650)" opacity=".25">
-  <path d="M0 -4.2 L1.5 -1.5 L4.2 0 L1.5 1.5 L0 4.2 L-1.5 1.5 L-4.2 0 L-1.5 -1.5 Z" fill="#ffd6ff">
+  <path d="M0 -4.2 L1.5 -1.5 L4.2 0 L1.5 1.5 L0 4.2 L-1.5 1.5 L-4.2 0 L-1.5 -1.5 Z" fill="#e0f2fe">
     <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="2.55s" begin="0.30s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;1;.15" dur="2.55s" begin="0.30s" repeatCount="indefinite"/>
   </path>
 </g>
 <g transform="translate(735 90)" opacity=".25">
-  <path d="M0 -4.8 L1.7 -1.7 L4.8 0 L1.7 1.7 L0 4.8 L-1.7 1.7 L-4.8 0 L-1.7 -1.7 Z" fill="#ffd6ff">
+  <path d="M0 -4.8 L1.7 -1.7 L4.8 0 L1.7 1.7 L0 4.8 L-1.7 1.7 L-4.8 0 L-1.7 -1.7 Z" fill="#e0f2fe">
     <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="3.10s" begin="0.60s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;1;.15" dur="3.10s" begin="0.60s" repeatCount="indefinite"/>
   </path>
 </g>
 <g transform="translate(1180 150)" opacity=".25">
-  <path d="M0 -5 L1.8 -1.8 L5 0 L1.8 1.8 L0 5 L-1.8 1.8 L-5 0 L-1.8 -1.8 Z" fill="#ffd6ff">
+  <path d="M0 -5 L1.8 -1.8 L5 0 L1.8 1.8 L0 5 L-1.8 1.8 L-5 0 L-1.8 -1.8 Z" fill="#e0f2fe">
     <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="2.00s" begin="0.90s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;1;.15" dur="2.00s" begin="0.90s" repeatCount="indefinite"/>
   </path>
 </g>
 <g transform="translate(1040 650)" opacity=".25">
-  <path d="M0 -4 L1.4 -1.4 L4 0 L1.4 1.4 L0 4 L-1.4 1.4 L-4 0 L-1.4 -1.4 Z" fill="#ffd6ff">
+  <path d="M0 -4 L1.4 -1.4 L4 0 L1.4 1.4 L0 4 L-1.4 1.4 L-4 0 L-1.4 -1.4 Z" fill="#e0f2fe">
     <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="2.55s" begin="1.20s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;1;.15" dur="2.55s" begin="1.20s" repeatCount="indefinite"/>
   </path>
 </g>
 <g transform="translate(610 340)" opacity=".25">
-  <path d="M0 -3.5 L1.2 -1.2 L3.5 0 L1.2 1.2 L0 3.5 L-1.2 1.2 L-3.5 0 L-1.2 -1.2 Z" fill="#ffd6ff">
+  <path d="M0 -3.5 L1.2 -1.2 L3.5 0 L1.2 1.2 L0 3.5 L-1.2 1.2 L-3.5 0 L-1.2 -1.2 Z" fill="#e0f2fe">
     <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="3.10s" begin="0.00s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;1;.15" dur="3.10s" begin="0.00s" repeatCount="indefinite"/>
   </path>
 </g>
 <g transform="translate(820 270)" opacity=".25">
-  <path d="M0 -3.8 L1.3 -1.3 L3.8 0 L1.3 1.3 L0 3.8 L-1.3 1.3 L-3.8 0 L-1.3 -1.3 Z" fill="#ffd6ff">
+  <path d="M0 -3.8 L1.3 -1.3 L3.8 0 L1.3 1.3 L0 3.8 L-1.3 1.3 L-3.8 0 L-1.3 -1.3 Z" fill="#e0f2fe">
     <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="2.00s" begin="0.30s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;1;.15" dur="2.00s" begin="0.30s" repeatCount="indefinite"/>
   </path>
 </g>
-<circle cx="750" cy="700" r="2" fill="#ff72c8" opacity="0">
+<circle cx="750" cy="700" r="2" fill="#38bdf8" opacity="0">
   <animate attributeName="cy" values="700;510" dur="3.60s" begin="0.00s" repeatCount="indefinite"/>
   <animate attributeName="cx" values="750;772;750" dur="3.60s" begin="0.00s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0;.65;0" dur="3.60s" begin="0.00s" repeatCount="indefinite"/>
 </circle>
-<circle cx="910" cy="705" r="3" fill="#ff72c8" opacity="0">
+<circle cx="910" cy="705" r="3" fill="#38bdf8" opacity="0">
   <animate attributeName="cy" values="705;515" dur="4.05s" begin="0.55s" repeatCount="indefinite"/>
   <animate attributeName="cx" values="910;888;910" dur="4.05s" begin="0.55s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0;.65;0" dur="4.05s" begin="0.55s" repeatCount="indefinite"/>
 </circle>
-<circle cx="1120" cy="710" r="4" fill="#ff72c8" opacity="0">
+<circle cx="1120" cy="710" r="4" fill="#38bdf8" opacity="0">
   <animate attributeName="cy" values="710;520" dur="4.50s" begin="1.10s" repeatCount="indefinite"/>
   <animate attributeName="cx" values="1120;1142;1120" dur="4.50s" begin="1.10s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0;.65;0" dur="4.50s" begin="1.10s" repeatCount="indefinite"/>
 </circle>
-<circle cx="370" cy="710" r="2" fill="#ff72c8" opacity="0">
+<circle cx="370" cy="710" r="2" fill="#38bdf8" opacity="0">
   <animate attributeName="cy" values="710;520" dur="4.95s" begin="1.65s" repeatCount="indefinite"/>
   <animate attributeName="cx" values="370;348;370" dur="4.95s" begin="1.65s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0;.65;0" dur="4.95s" begin="1.65s" repeatCount="indefinite"/>
 </circle>
-<circle cx="660" cy="710" r="3" fill="#ff72c8" opacity="0">
+<circle cx="660" cy="710" r="3" fill="#38bdf8" opacity="0">
   <animate attributeName="cy" values="710;520" dur="5.40s" begin="2.20s" repeatCount="indefinite"/>
   <animate attributeName="cx" values="660;682;660" dur="5.40s" begin="2.20s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values="0;.65;0" dur="5.40s" begin="2.20s" repeatCount="indefinite"/>
 </circle>
 <g transform="translate(102 325) scale(1)" opacity="0">
-  <path d="M0 7 C-15 -4 -28 14 0 34 C28 14 15 -4 0 7Z" fill="none" stroke="#ff72c8" stroke-width="3"/>
+  <path d="M0 7 C-15 -4 -28 14 0 34 C28 14 15 -4 0 7Z" fill="none" stroke="#38bdf8" stroke-width="3"/>
   <animate attributeName="opacity" values="0;.75;0" dur="4.0s" begin="1.0s" repeatCount="indefinite"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -70" dur="4.0s" begin="1.0s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(702 585) scale(0.8)" opacity="0">
-  <path d="M0 7 C-15 -4 -28 14 0 34 C28 14 15 -4 0 7Z" fill="none" stroke="#ff72c8" stroke-width="3"/>
+  <path d="M0 7 C-15 -4 -28 14 0 34 C28 14 15 -4 0 7Z" fill="none" stroke="#38bdf8" stroke-width="3"/>
   <animate attributeName="opacity" values="0;.75;0" dur="4.7s" begin="2.1s" repeatCount="indefinite"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -70" dur="4.7s" begin="2.1s" repeatCount="indefinite"/>
 </g>
 <g transform="translate(1170 390) scale(0.9)" opacity="0">
-  <path d="M0 7 C-15 -4 -28 14 0 34 C28 14 15 -4 0 7Z" fill="none" stroke="#ff72c8" stroke-width="3"/>
+  <path d="M0 7 C-15 -4 -28 14 0 34 C28 14 15 -4 0 7Z" fill="none" stroke="#38bdf8" stroke-width="3"/>
   <animate attributeName="opacity" values="0;.75;0" dur="5.4s" begin="3.2s" repeatCount="indefinite"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 0;0 -70" dur="5.4s" begin="3.2s" repeatCount="indefinite"/>
 </g>
 
   <!-- Terminal prompt. The 62px reveal window is intentionally taller than the 18px text. -->
-  <g clip-path="url(#termClip)"><text x="55" y="54" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18" font-weight="700" fill="#d9b8e8"><tspan fill="#ff69c6">user@dev</tspan><tspan fill="#d9b8e8">:~$ cat README.md</tspan></text></g>
-  <rect x="462" y="35" width="10" height="24" rx="2" fill="#ff79d1"><animate attributeName="opacity" values="0;0;1;0;1" keyTimes="0;.35;.36;.68;1" dur="1s" begin="1.35s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#termClip)"><text x="55" y="54" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="18" font-weight="700" fill="#bfdbfe"><tspan fill="#38bdf8">user@dev</tspan><tspan fill="#bfdbfe">:~$ cat README.md</tspan></text></g>
+  <rect x="462" y="35" width="10" height="24" rx="2" fill="#7dd3fc"><animate attributeName="opacity" values="0;0;1;0;1" keyTimes="0;.35;.36;.68;1" dur="1s" begin="1.35s" repeatCount="indefinite"/></rect>
 
   <!-- Name is actual glyph outlines, not live text. -->
   <g transform="translate(55.00 182.00) scale(0.10600 -0.10600)">
@@ -198,137 +198,137 @@
 </g>
 
   <!-- Typed, cycling roles. Each reveal window is 66px tall. -->
-  <g clip-path="url(#roleClip1)"><text x="55" y="244" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="1" fill="#f6d8ff">Senior Full Stack Engineer</text></g>
-  <g clip-path="url(#roleClip2)"><text x="55" y="244" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="1" fill="#f6d8ff">Backend Systems Engineer</text></g>
-  <g clip-path="url(#roleClip3)"><text x="55" y="244" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="1" fill="#f6d8ff">AI Model Evaluation Engineer</text></g>
-  <rect x="684" y="219" width="10" height="31" fill="#ff6fd1"><animate attributeName="opacity" values="1;0;1" dur=".75s" repeatCount="indefinite"/></rect>
+  <g clip-path="url(#roleClip1)"><text x="55" y="244" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="1" fill="#e0f2fe">Senior Full Stack Engineer</text></g>
+  <g clip-path="url(#roleClip2)"><text x="55" y="244" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="1" fill="#e0f2fe">Backend Systems Engineer</text></g>
+  <g clip-path="url(#roleClip3)"><text x="55" y="244" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" letter-spacing="1" fill="#e0f2fe">AI Model Evaluation Engineer</text></g>
+  <rect x="684" y="219" width="10" height="31" fill="#7dd3fc"><animate attributeName="opacity" values="1;0;1" dur=".75s" repeatCount="indefinite"/></rect>
 
   <!-- Typed tagline box. -->
-  <g filter="url(#panelShadow)"><rect x="55" y="273" width="650" height="88" rx="18" fill="#130b22" fill-opacity=".78" stroke="#e657ff" stroke-opacity=".44"/></g>
-  <text x="72" y="324" font-family="Georgia,serif" font-size="42" fill="#f9a8d4" opacity=".65">“</text>
-  <g clip-path="url(#quoteClip1)"><text x="97" y="308" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" font-weight="700" fill="#fff7ff">Code. Coffee. Keep growing — shipping</text></g>
-  <g clip-path="url(#quoteClip2)"><text x="97" y="337" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" font-weight="700" fill="#fff7ff">systems that scale, one API at a time.</text></g>
+  <g filter="url(#panelShadow)"><rect x="55" y="273" width="650" height="88" rx="18" fill="#0a1a28" fill-opacity=".78" stroke="#0ea5e9" stroke-opacity=".44"/></g>
+  <text x="72" y="324" font-family="Georgia,serif" font-size="42" fill="#bae6fd" opacity=".65">“</text>
+  <g clip-path="url(#quoteClip1)"><text x="97" y="308" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" font-weight="700" fill="#f8fcff">Code. Coffee. Keep growing — shipping</text></g>
+  <g clip-path="url(#quoteClip2)"><text x="97" y="337" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" font-weight="700" fill="#f8fcff">systems that scale, one API at a time.</text></g>
 
   <!-- Stack pills. -->
   <g transform="translate(55 382)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="3.20s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="3.20s" fill="freeze"/>
   <g class="pill">
-    <rect width="86" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="86" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">Python</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">Python</text>
   </g>
 </g><g transform="translate(151 382)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="3.32s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="3.32s" fill="freeze"/>
   <g class="pill">
-    <rect width="94" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="94" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">FastAPI</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">FastAPI</text>
   </g>
 </g><g transform="translate(255 382)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="3.44s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="3.44s" fill="freeze"/>
   <g class="pill">
-    <rect width="92" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="92" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">Django</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">Django</text>
   </g>
 </g><g transform="translate(357 382)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="3.56s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="3.56s" fill="freeze"/>
   <g class="pill">
-    <rect width="82" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="82" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">React</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">React</text>
   </g>
 </g><g transform="translate(449 382)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="3.68s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="3.68s" fill="freeze"/>
   <g class="pill">
-    <rect width="70" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="70" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">SQL</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">SQL</text>
   </g>
 </g><g transform="translate(529 382)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="3.80s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="3.80s" fill="freeze"/>
   <g class="pill">
-    <rect width="88" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="88" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">Vue</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">Vue</text>
   </g>
 </g><g transform="translate(55 424)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="3.92s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="3.92s" fill="freeze"/>
   <g class="pill">
-    <rect width="126" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="126" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">Microservices</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">Microservices</text>
   </g>
 </g><g transform="translate(191 424)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="4.04s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="4.04s" fill="freeze"/>
   <g class="pill">
-    <rect width="125" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="125" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">System Design</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">System Design</text>
   </g>
 </g><g transform="translate(326 424)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="4.16s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="4.16s" fill="freeze"/>
   <g class="pill">
-    <rect width="118" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="118" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">AI Evaluation</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">AI Evaluation</text>
   </g>
 </g><g transform="translate(454 424)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.45s" begin="4.28s" fill="freeze"/>
   <animateTransform attributeName="transform" additive="sum" type="translate" values="0 10;0 0" dur="0.45s" begin="4.28s" fill="freeze"/>
   <g class="pill">
-    <rect width="64" height="34" rx="17" fill="#25123d" stroke="#d95cff" stroke-opacity=".7"/>
+    <rect width="64" height="34" rx="17" fill="#123048" stroke="#0ea5e9" stroke-opacity=".7"/>
     <circle cx="17" cy="17" r="5" fill="url(#pillDot)" class="pulseDot"/>
-    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f9ddff">AWS</text>
+    <text x="29" y="22" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#f0f9ff">AWS</text>
   </g>
 </g>
 
   <!-- About me lines. -->
   <g transform="translate(55 476)">
-    <text x="0" y="0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="900" letter-spacing="2.5" fill="#f9a8d4">ABOUT ME</text>
-    <line x1="112" y1="-5" x2="650" y2="-5" stroke="#e657ff" stroke-opacity=".25"/>
+    <text x="0" y="0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="900" letter-spacing="2.5" fill="#bae6fd">ABOUT ME</text>
+    <line x1="112" y1="-5" x2="650" y2="-5" stroke="#0ea5e9" stroke-opacity=".25"/>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur=".65s" begin="5.05s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" values="-14 0;0 0" dur=".65s" begin="5.05s" fill="freeze"/>
-      <circle cx="6" cy="30" r="4" fill="#ff69c6"/><text x="20" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#fff7ff">Python-first full-stack engineer with a backend systems focus.</text>
+      <circle cx="6" cy="30" r="4" fill="#38bdf8"/><text x="20" y="36" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#f8fcff">Python-first full-stack engineer with a backend systems focus.</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur=".65s" begin="5.35s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" values="-14 0;0 0" dur=".65s" begin="5.35s" fill="freeze"/>
-      <circle cx="6" cy="60" r="4" fill="#c06cff"/><text x="20" y="66" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#fff7ff">APIs, microservices, CRM/marketplace workflows, and product logic.</text>
+      <circle cx="6" cy="60" r="4" fill="#38bdf8"/><text x="20" y="66" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#f8fcff">APIs, microservices, CRM/marketplace workflows, and product logic.</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur=".65s" begin="5.65s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" values="-14 0;0 0" dur=".65s" begin="5.65s" fill="freeze"/>
-      <circle cx="6" cy="90" r="4" fill="#ff8fcf"/><text x="20" y="96" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#fff7ff">Evaluating coding agents—and turning failure patterns into better software.</text>
+      <circle cx="6" cy="90" r="4" fill="#bae6fd"/><text x="20" y="96" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#f8fcff">Evaluating coding agents—and turning failure patterns into better software.</text>
     </g>
     <g opacity="0" transform="translate(-14 0)">
       <animate attributeName="opacity" from="0" to="1" dur=".65s" begin="5.95s" fill="freeze"/>
       <animateTransform attributeName="transform" type="translate" values="-14 0;0 0" dur=".65s" begin="5.95s" fill="freeze"/>
-      <circle cx="6" cy="120" r="4" fill="#9b7bff"/><text x="20" y="126" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#fff7ff">BSc Computer Science • UET Lahore • AI, data, HCI, and system design.</text>
+      <circle cx="6" cy="120" r="4" fill="#38bdf8"/><text x="20" y="126" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#f8fcff">BSc Computer Science • UET Lahore • AI, data, HCI, and system design.</text>
     </g>
   </g>
 
   <!-- Local, static public-profile snapshot stats. -->
   <g transform="translate(55 638)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur=".6s" begin="6.2s" fill="freeze"/>
-    <rect width="650" height="72" rx="18" fill="#130b22" fill-opacity=".78" stroke="#e657ff" stroke-opacity=".36"/>
+    <rect width="650" height="72" rx="18" fill="#0a1a28" fill-opacity=".78" stroke="#0ea5e9" stroke-opacity=".36"/>
     <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
-      <text x="82" y="31" font-size="22" font-weight="900" fill="#ff78cf">26</text><text x="82" y="52" font-size="10" font-weight="800" fill="#d9b8e8" letter-spacing="1">PUBLIC REPOS</text>
-      <text x="241" y="31" font-size="22" font-weight="900" fill="#c879ff">3</text><text x="241" y="52" font-size="10" font-weight="800" fill="#d9b8e8" letter-spacing="1">FOLLOWERS</text>
-      <text x="408" y="31" font-size="22" font-weight="900" fill="#ff9bcf">2</text><text x="408" y="52" font-size="10" font-weight="800" fill="#d9b8e8" letter-spacing="1">ACHIEVEMENTS</text>
-      <text x="570" y="31" font-size="22" font-weight="900" fill="#a98cff">3</text><text x="570" y="52" font-size="10" font-weight="800" fill="#d9b8e8" letter-spacing="1">BENCH VARIANTS</text>
+      <text x="82" y="31" font-size="22" font-weight="900" fill="#7dd3fc">26</text><text x="82" y="52" font-size="10" font-weight="800" fill="#bfdbfe" letter-spacing="1">PUBLIC REPOS</text>
+      <text x="241" y="31" font-size="22" font-weight="900" fill="#7dd3fc">3</text><text x="241" y="52" font-size="10" font-weight="800" fill="#bfdbfe" letter-spacing="1">FOLLOWERS</text>
+      <text x="408" y="31" font-size="22" font-weight="900" fill="#bae6fd">2</text><text x="408" y="52" font-size="10" font-weight="800" fill="#bfdbfe" letter-spacing="1">ACHIEVEMENTS</text>
+      <text x="570" y="31" font-size="22" font-weight="900" fill="#67e8f9">3</text><text x="570" y="52" font-size="10" font-weight="800" fill="#bfdbfe" letter-spacing="1">BENCH VARIANTS</text>
     </g>
-    <path d="M162 15V57M326 15V57M491 15V57" stroke="#e657ff" stroke-opacity=".2"/>
+    <path d="M162 15V57M326 15V57M491 15V57" stroke="#0ea5e9" stroke-opacity=".2"/>
   </g>
 
   <!-- Character hologram formation. -->
@@ -348,30 +348,30 @@
       <!-- Neon / slogan pill. -->
   <g transform="translate(818 392)" opacity="0" filter="url(#softGlow)">
     <animate attributeName="opacity" values="0;.25;0;.85;.35;1;.7;1;1;.88;1;.75;1" keyTimes="0;.05;.08;.14;.18;.26;.32;.4;.7;.78;.86;.93;1" dur="3.5s" begin="4.9s" repeatCount="indefinite"/>
-    <rect width="390" height="60" rx="30" fill="#ffffff" fill-opacity=".78" stroke="#ff4fb8" stroke-width="2.5"/>
-    <rect x="3" y="3" width="384" height="54" rx="27" fill="#fff8fc" fill-opacity=".35"/>
-    <text x="195" y="38" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="900" letter-spacing="2.4" fill="#4a1460">BUILD DREAMS • SHIP SYSTEMS</text>
+    <rect width="390" height="60" rx="30" fill="#ffffff" fill-opacity=".78" stroke="#0ea5e9" stroke-width="2.5"/>
+    <rect x="3" y="3" width="384" height="54" rx="27" fill="#f8fcff" fill-opacity=".35"/>
+    <text x="195" y="38" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="900" letter-spacing="2.4" fill="#0c4a6e">BUILD DREAMS • SHIP SYSTEMS</text>
   </g>
 
   <!-- Code editor card, typing line by line. -->
   <g transform="translate(785 498)" filter="url(#panelShadow)">
-    <rect width="455" height="214" rx="18" fill="#0b0714" fill-opacity=".94" stroke="#e657ff" stroke-opacity=".6"/>
-    <rect width="455" height="36" rx="18" fill="#32154e"/><rect y="18" width="455" height="18" fill="#32154e"/>
-    <circle cx="20" cy="18" r="5" fill="#ff668f"/><circle cx="38" cy="18" r="5" fill="#ffd166"/><circle cx="56" cy="18" r="5" fill="#62dca8"/>
-    <text x="82" y="23" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" fill="#d9b8e8">dreams.jsx</text>
-    <g transform="translate(-785 -498)"><text x="821" y="544" clip-path="url(#codeClip0)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f8eafa">const buildDreams = () =&gt; (</text><text x="841" y="572" clip-path="url(#codeClip1)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f8eafa">&lt;Future</text><text x="861" y="600" clip-path="url(#codeClip2)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f8eafa">stack={["Python", "Vue", "AI"]}</text><text x="861" y="628" clip-path="url(#codeClip3)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f8eafa">mindset="solve • learn • grow"</text><text x="841" y="656" clip-path="url(#codeClip4)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f8eafa">/&gt;</text><text x="821" y="684" clip-path="url(#codeClip5)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f8eafa">);</text></g>
-    <rect x="388" y="178" width="8" height="19" fill="#ff6fcf"><animate attributeName="opacity" values="1;0;1" dur=".72s" begin="9.4s" repeatCount="indefinite"/></rect>
+    <rect width="455" height="214" rx="18" fill="#07141c" fill-opacity=".94" stroke="#0ea5e9" stroke-opacity=".6"/>
+    <rect width="455" height="36" rx="18" fill="#155e75"/><rect y="18" width="455" height="18" fill="#155e75"/>
+    <circle cx="20" cy="18" r="5" fill="#7dd3fc"/><circle cx="38" cy="18" r="5" fill="#bae6fd"/><circle cx="56" cy="18" r="5" fill="#62dca8"/>
+    <text x="82" y="23" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" fill="#bfdbfe">dreams.jsx</text>
+    <g transform="translate(-785 -498)"><text x="821" y="544" clip-path="url(#codeClip0)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f0f9ff">const buildDreams = () =&gt; (</text><text x="841" y="572" clip-path="url(#codeClip1)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f0f9ff">&lt;Future</text><text x="861" y="600" clip-path="url(#codeClip2)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f0f9ff">stack={["Python", "Vue", "AI"]}</text><text x="861" y="628" clip-path="url(#codeClip3)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f0f9ff">mindset="solve • learn • grow"</text><text x="841" y="656" clip-path="url(#codeClip4)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f0f9ff">/&gt;</text><text x="821" y="684" clip-path="url(#codeClip5)" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14.5" fill="#f0f9ff">);</text></g>
+    <rect x="388" y="178" width="8" height="19" fill="#7dd3fc"><animate attributeName="opacity" values="1;0;1" dur=".72s" begin="9.4s" repeatCount="indefinite"/></rect>
   </g>
 
   <!-- Continuous full-width scanner clipped to the rounded banner. -->
   <rect x="0" y="-86" width="1280" height="130" fill="url(#scanGrad)" opacity=".52">
     <animate attributeName="y" from="-86" to="760" dur="3.5s" repeatCount="indefinite"/>
   </rect>
-  <line x1="20" x2="1260" y1="-20" y2="-20" stroke="#ff50d3" stroke-width="1.5" stroke-opacity=".62" filter="url(#scanGlow)">
+  <line x1="20" x2="1260" y1="-20" y2="-20" stroke="#38bdf8" stroke-width="1.5" stroke-opacity=".62" filter="url(#scanGlow)">
     <animate attributeName="y1" from="-20" to="746" dur="3.5s" repeatCount="indefinite"/>
     <animate attributeName="y2" from="-20" to="746" dur="3.5s" repeatCount="indefinite"/>
   </line>
 </g>
-<rect x="8" y="8" width="1264" height="724" rx="28" fill="none" stroke="#e657ff" stroke-opacity=".58" stroke-width="2"/>
+<rect x="8" y="8" width="1264" height="724" rx="28" fill="none" stroke="#0ea5e9" stroke-opacity=".58" stroke-width="2"/>
 <rect x="14" y="14" width="1252" height="712" rx="24" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
 </svg>
