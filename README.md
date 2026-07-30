@@ -94,14 +94,18 @@ const buildDreams = () => (
 
 <br/>
 
-| Project | What it demonstrates | Stack / domain |
-|---|---|---|
-| [Virtual Reality-Based E-Commerce Web Application](https://github.com/Maham-Wajid/virtual-reality-based-ecommerce-web-application) | Award-recognized final-year project delivering a 3D MetaMart shopping experience | Unity · C# · VR · E-commerce |
-| [Maham Portfolio](https://github.com/Maham-Wajid/maham-portfolio) | Personal portfolio and front-end presentation | TypeScript · Web UI |
-| [Book Catalog](https://github.com/Maham-Wajid/book-catalog) | FastAPI CRUD application and API-centered data workflows | Python · FastAPI · CRUD |
-| [Web Scrapper Demo](https://github.com/Maham-Wajid/web-scrapper-demo) | Page interaction, web scraping, and API integration | TypeScript · Automation |
-| [Hospital Management System](https://github.com/Maham-Wajid/hospital-management-system) | Desktop management-system foundations | C# · Desktop |
-| [Machine Learning Projects](https://github.com/Maham-Wajid?tab=repositories&q=&type=&language=jupyter-notebook&sort=) | Prediction work covering rainfall, heart disease, diabetes, and related datasets | Python · Jupyter · ML |
+| # | Project | What it demonstrates | Stack / domain |
+|:-:|---|---|---|
+| 1 | [BS CS FYP — VR E-Commerce (MetaMart)](https://github.com/Maham-Wajid/virtual-reality-based-ecommerce-web-application) | Final-year project: 3D MetaMart VR shopping experience | Unity · C# · VR · E-commerce |
+| 2 | [Terminal-Bench 3 (open source)](https://github.com/Maham-Wajid/terminal-bench-3) | Open-source contribution to frontier agent/CLI benchmarking tasks | AI · Agents · Benchmarking |
+| 3 | [Ownership Transfer System](https://github.com/Maham-Wajid/ownership-transfer-system) | Dubai real-estate ownership transfers with audit history and joint ownership | FastAPI · PostgreSQL · Redis · Docker |
+| 4 | [Job Recommendation System](https://github.com/Maham-Wajid/job-recommendation-system) | Skill-based job matching with interaction-weighted recommendations | Python · Django · DRF |
+| 5 | [Temperature Converter](https://github.com/Maham-Wajid/temperature-converter) | Desktop GUI for Celsius / Fahrenheit / Kelvin conversion with history | Python · Tkinter |
+| 6 | [Soil Detection for Cotton Production](https://github.com/Maham-Wajid/soil-detection-for-cotton-production) | ML research on soil suitability for cotton production | Machine Learning · Agriculture |
+| 7 | [Rainfall Prediction](https://github.com/Maham-Wajid/rainfall-prediction) | Linear regression on Austin weather data with EDA and evaluation | Python · scikit-learn · Jupyter |
+| 8 | [Diabetes Prediction](https://github.com/Maham-Wajid/diabetes-prediction) | Logistic regression pipeline for diabetes classification from medical features | Python · scikit-learn · EDA |
+| 9 | [Todo Web App](https://github.com/Maham-Wajid/todo-web-app) | Notes/todo frontend with Angular and API integration | Angular · TypeScript · REST |
+| 10 | [Hostel Management System](https://github.com/Maham-Wajid/hostel-management-system) | Full-stack hostel operations web app with MySQL backend | HTML · CSS · JS · PHP · MySQL |
 
 <details>
 <summary><b>Additional professional project experience</b></summary>
