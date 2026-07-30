@@ -24,9 +24,9 @@
 <tr>
 <td width="42%" valign="top" align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./lanyard.svg?v=13">
-    <source media="(prefers-color-scheme: light)" srcset="./lanyard-light.svg?v=13">
-    <img src="./lanyard-light.svg?v=13" width="360" alt="Animated swinging ID badge for Maham Wajid">
+    <source media="(prefers-color-scheme: dark)" srcset="./lanyard.svg?v=14">
+    <source media="(prefers-color-scheme: light)" srcset="./lanyard-light.svg?v=14">
+    <img src="./lanyard-light.svg?v=14" width="360" alt="Animated swinging ID badge for Maham Wajid">
   </picture>
 </td>
 <td width="58%" valign="middle">
