@@ -31,7 +31,7 @@
 </td>
 <td width="58%" valign="middle">
 
-I am **Maham Wajid**, a **Senior Full Stack Engineer** with a Python-first backend focus. I design APIs, data models, microservices, and product workflows for CRM, marketplace, e-commerce, rewards, and cloud-resource systems. I also evaluate coding agents and LLM-based software-engineering systems—combining developer judgment with structured model-failure analysis.
+I'm **Maham Wajid**, a software engineer with a Python-first backend focus, working across full-stack product systems and LLM coding-agent evaluation. I also evaluate coding agents and LLM-based software-engineering systems—combining developer judgment with structured model-failure analysis.
 
 > **Code. Coffee. Keep growing — shipping systems that scale, one API at a time.**
 
